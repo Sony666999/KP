@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+• {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #132436; 
+  color: #ffffff; 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #132436; 
+  padding: 20px;
+  display: flex;
+  position: relative;
+  justify-content: space-between; /* */
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+header .logo {
+  width: 150px;
+  height: auto;
+  background-image: url("Frame 8.png"); /* Добавили background-image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff5e00; 
+}
+
+.footer-divider {
+  background-color: #ffffff; 
+  height: 0.5px; 
+  margin: 0 20px; 
+  width: 100%;
+  max-width: 800px;
+}
+
+main {
+  background-color: #132436; 
+  border-radius: 8px;
+  box-shadow: 0 1px 2px #ffffff;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-indent: 25px;
+  font-size: 36px;
+  color: #ff5e00; 
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  text-indent: 25px;
+  font-size: 36px;
+  margin-top: 20px;
+  color: #E05A29; 
+}
+
+h3 {
+  text-indent: 25px;
+  font-size: 18px;
+  margin-top: 0px;
+  color: #E05A29; 
+}
+
+p {
+  text-indent: 25px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+section ul {
+  color: #ffffff; 
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+li::marker {
+  color: #E05A29;
+}
+
+.op { 
+  color: #E05A29; 
+}
+
+.booking {
+  padding: 20px;
+}
+
+.booking-heading {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.booking-paragraph {
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+}
+
+.form-container {
+  background-color: rgba(156, 144, 252, 0.5);
+  padding: 20px;
+  width: 45%;
+  max-width: 350px; 
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #F2ECEC;
+  background: transparent;
+  outline: none;
+  color: #ffffff; 
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+select:focus {
+  border-bottom: 2px solid #ff5e00;
+}
+
+input[type="text"].error,
+input[type="date"].error,
+input[type="time"].error,
+select.error {
+  border-bottom: 2px solid red; 
+}
+
+.error-text {
+  color: red; 
+  font-size: 12px; 
+  margin-top: 5px; 
+}
+
+select {
+  width: 90%; 
+  padding: 10px; 
+  border: none; 
+  border-bottom: 2px solid #F2ECEC;
+  background: transparent; 
+  outline: none; 
+  text-align: center; 
+}
+
+select:focus {
+  border-bottom: 2px solid #ff5e00; 
+}
+
+.image-container {
+  width: 45%; 
+  max-width: 400px; 
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 0;
+}
+
+.image-container img {
+  width: 100%; 
+  height: auto; 
+}
+
+.center-container {
+  display: flex; 
+  justify-content: center; 
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #ff5e00; 
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+  background-color: white;
+  color: #ff5e00;
+  border: 2px solid #ff5e00; 
+}
+
+footer {
+  background-color: #132436; 
+  text-align: center;
+  padding: 15px;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

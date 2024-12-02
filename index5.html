@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Книжный уголок</title>
+</head>
+<body>
+    <header>
+      <img class="logo" src="Frame 8.png"/>
+      <nav>
+          <ul>
+              <li><a href="index.html">О нас</a></li>
+              <li><a href="index2.html">Меню</a></li>
+          </ul>
+      </nav>
+    </header>
+    <div class="footer-divider"></div>
+    <main>
+        <h1>Бронирование стола</h1>
+        <section class="booking">
+            <div class="content">
+                <div class="form-container">
+                    <form action="thank-you.html">
+                        <h2>Регистрация:</h2>
+                        <div class="form-group fullname">
+                          <label for="fullname">Имя:</label>
+                          <input type="text" id="fullname" placeholder=" ">
+                        </div>
+                        <div class="form-group televon">
+                            <label for="televon">Телефон:</label>
+                            <input type="text" id="televon" placeholder=" ">
+                          </div>
+                        <div class="form-group email">
+                          <label for="email">Email:</label>
+                          <input type="text" id="email" placeholder=" ">
+                        </div>
+                        <div class="form-group date">
+                          <label for="date">Дата бронирования:</label>
+                          <input type="date" id="date" placeholder=" ">
+                        </div>
+                        <div class="form-group time">
+                            <label for="arrivalTime">Время прибытия:</label>
+                            <input type="time" id="arrivalTime">
+                        </div>
+                        <div class="form-group guests">
+                            <label for="guestCount">Количество гостей:</label>
+                            <select id="guestCount">
+                                <option value="" selected disabled>Выберите количество гостей</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="More">Больше 5</option>
+                            </select>
+                        </div>
+                        <div class="form-group table-choice">
+                            <label for="tableChoice">Выбор столика:</label>
+                            <select id="tableChoice">
+                                <option value="" selected disabled>Выберите столик</option>
+                                <option value="1">Столик 1</option>
+                                <option value="2">Столик 2</option>
+                                <option value="3">Столик 3</option>
+                                <option value="4">Столик 4</option>
+                                <option value="5">Столик 5</option>
+                                <option value="6">Столик 6</option>
+                                <option value="7">Столик 7</option>
+                            </select>
+                        </div>
+                        <div class="center-container">
+                            <button id="bookingButton">Забронировать</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="image-container">
+                    <img src="Frame 9.png" align="left" width="400" height="440" />
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Контакты: 89999999999</p>
+        <p>Адрес: *********</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

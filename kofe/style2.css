@@ -1,0 +1,50 @@
+body {
+    font-family: serif; /* Замените на нужный шрифт */
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #f0f0f0; /* Замените на нужный цвет */
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+#about .columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#about .column {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#booking {
+    background-color: #ddd; /* Замените на нужный цвет */
+    text-align: center;
+    padding: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #666; /* Замените на нужный цвет */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0; /* Замените на нужный цвет */
+}
+
+/*  Добавьте стили для изображений  */
+

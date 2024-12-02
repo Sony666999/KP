@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif; /* Замените на нужный шрифт */
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 {
+    margin: 0;
+  }
+  
+  header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #hero {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+  }
+  
+  
+  #hero img {
+    display: none; /* Скрываем изображение, если используете фон */
+  }
+  
+  #hero .hero-text h2 {
+    margin-bottom: 10px;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  #about .image-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #about .image-text img {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  #menu .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  #menu .menu-item {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  #menu .menu-item img {
+    max-width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  /*Responsive design - пример*/
+  @media (max-width: 768px) {
+   #menu .menu-item {
+    width: 100%;
+   }
+   #about .image-text {
+     flex-direction: column; /* меняем на вертикальное расположение на маленьких экранах */
+     align-items: center;
+   }
+   #about .image-text img {
+     margin-right: 0;
+     margin-bottom: 10px;
+   }
+  }
+  
